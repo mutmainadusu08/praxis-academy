@@ -1,0 +1,1289 @@
+ C:\Users\acer>dir
+ Volume in drive C has no label.
+ Volume Serial Number is C2F6-3EA3
+
+ Directory of C:\Users\acer
+
+02/17/2020  11:00 PM    <DIR>          .
+02/17/2020  11:00 PM    <DIR>          ..
+10/14/2019  01:58 AM    <DIR>          .android
+10/14/2019  01:30 AM    <DIR>          .AndroidStudio3.5
+06/25/2019  02:40 AM                90 .angular-config.json
+10/29/2019  04:45 PM    <DIR>          .astah
+02/04/2020  01:04 PM            16,545 .bash_history
+03/21/2019  10:47 AM    <DIR>          .config
+11/14/2018  12:59 PM    <DIR>          .configprops
+11/14/2018  12:59 PM    <DIR>          .datastorage
+12/20/2018  12:44 PM    <DIR>          .FEffectStoreExe
+07/30/2019  02:40 AM                70 .gitconfig
+10/14/2019  01:58 AM    <DIR>          .gradle
+10/18/2019  05:21 PM    <DIR>          .matplotlib
+06/20/2019  08:28 PM    <DIR>          .nbi
+12/27/2019  06:51 PM    <DIR>          .Origin
+11/03/2018  11:27 PM               348 .packettracer
+10/18/2019  05:56 PM    <DIR>          .qgis2
+12/16/2018  11:43 PM    <DIR>          .QtWebEngineProcess
+11/22/2019  07:08 PM    <DIR>          .spss
+03/22/2019  01:51 PM               532 .viminfo
+12/16/2018  11:43 PM    <DIR>          .Wondershare Filmora9
+01/13/2020  05:45 AM    <DIR>          3D Objects
+10/14/2019  01:48 AM    <DIR>          AndroidStudioProjects
+10/20/2018  10:03 PM    <DIR>          Cisco Packet Tracer 5.3.1
+10/09/2018  03:27 PM    <DIR>          Cisco Packet Tracer 7.2
+01/13/2020  05:45 AM    <DIR>          Contacts
+01/13/2020  05:45 AM    <DIR>          Desktop
+01/28/2020  05:56 PM    <DIR>          Documents
+01/13/2020  06:40 AM    <DIR>          Downloads
+01/13/2020  05:45 AM    <DIR>          Favorites
+05/03/2019  09:47 AM            48,086 IMG-20190502-WA0011.jpg
+07/15/2019  06:38 AM           829,053 IMG_20190715_063601.jpg
+07/15/2019  06:38 AM           312,675 IMG_20190715_063712.jpg
+07/15/2019  06:38 AM           429,823 IMG_20190715_063735.jpg
+11/14/2018  12:59 PM    <DIR>          Justinmind
+01/13/2020  05:45 AM    <DIR>          Links
+01/13/2020  05:45 AM    <DIR>          Music
+03/21/2019  07:06 PM    <DIR>          my-app
+03/22/2019  02:14 PM    <DIR>          node_modules
+02/18/2020  12:15 AM    <DIR>          OneDrive
+03/22/2019  02:14 PM               649 package-lock.json
+01/13/2020  05:45 AM    <DIR>          Pictures
+07/30/2019  08:48 PM    <DIR>          Postman
+01/13/2020  05:45 AM    <DIR>          Saved Games
+01/13/2020  05:45 AM    <DIR>          Searches
+01/13/2020  05:45 AM    <DIR>          Videos
+              10 File(s)      1,637,871 bytes
+              37 Dir(s)  36,517,281,792 bytes free
+
+
+
+
+			  
+C:\Users\acer>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2404:c0:3091:1e50:b406:2265:4b3:2e66
+   Temporary IPv6 Address. . . . . . : 2404:c0:3091:1e50:14d2:463f:7ae6:6288
+   Link-local IPv6 Address . . . . . : fe80::b406:2265:4b3:2e66%7
+   IPv4 Address. . . . . . . . . . . : 192.168.43.184
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::f445:816f:79f6:b651%7
+                                       192.168.43.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   
+   
+   
+   
+
+C:\Users\acer>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or 
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+
+
+
+
+
+C:\Users\acer>assoc
+.001=WinRAR
+.386=vxdfile
+.3g2=WMP11.AssocFile.3G2
+.3gp=WMP11.AssocFile.3GP
+.3gp2=WMP11.AssocFile.3G2
+.3gpp=WMP11.AssocFile.3GP
+.7z=WinRAR
+.AAC=WMP11.AssocFile.ADTS
+.accda=Access.ACCDAExtension.16
+.accdb=Access.Application.16
+.accdc=Access.ACCDCFile.16
+.accde=Access.ACCDEFile.16
+.accdr=Access.ACCDRFile.16
+.accdt=Access.ACCDTFile.16
+.accdu=Access.WizardUserDataFile.16
+.accdw=Access.WebApplicationReference.16
+.accft=Access.ACCFTFile.16
+.accountpicture-ms=accountpicturefile
+.acl=ACLFile
+.ade=Access.ADEFile.16
+.adn=Access.BlankProjectTemplate.16
+.adp=Access.Project.16
+.ADT=WMP11.AssocFile.ADTS
+.ADTS=WMP11.AssocFile.ADTS
+.aif=GOMPlayer.aif
+.aifc=WMP11.AssocFile.AIFF
+.aiff=GOMPlayer.aiff
+.air=AIR.InstallerPackage
+.alac=GOMPlayer.alac
+.amv=GOMPlayer.amv
+.ani=anifile
+.ape=GOMPlayer.ape
+.appcontent-ms=ApplicationContent
+.application=Application.Manifest
+.appref-ms=Application.Reference
+.arj=WinRAR
+.asa=aspfile
+.asf=WMP11.AssocFile.ASF
+.asp=aspfile
+.ass=GOMPlayer.ass
+.asta=astah-UML
+.asx=GOMPlayer.asx
+.au=WMP11.AssocFile.AU
+.avastconfig=avastconfigfile
+.avastlic=avastlicfile
+.avastsounds=avastsoundsfile
+.avasttheme=avastthemefile
+.avastvpn=avastvpnfile
+.avi=WMP11.AssocFile.AVI
+.aw=AWFile
+.bat=batfile
+.blg=Diagnostic.Perfmon.Document
+.bmp=Paint.Picture
+.bmpr=com.balsamiq.mockup.project
+.bz=WinRAR
+.bz2=WinRAR
+.cab=WinRAR
+.caf=GOMPlayer.caf
+.camp=campfile
+.cat=CATFile
+.cda=WMP11.AssocFile.CDA
+.cdmp=cdmpfile
+.cdx=aspfile
+.cdxml=Microsoft.PowerShellCmdletDefinitionXML.1
+.cer=CERFile
+.chk=chkfile
+.chm=chm.file
+.cmd=cmdfile
+.com=comfile
+.compositefont=Windows.CompositeFont
+.cpl=cplfile
+.crl=CRLFile
+.crt=CERFile
+.crtx=CRTXFile
+.css=CSSfile
+.csv=Excel.CSV
+.cur=curfile
+.db=dbfile
+.dctx=IMEDictionaryCompiler
+.dctxc=IMEDictionaryCompiler
+.dds=ddsfile
+.der=CERFile
+.desklink=CLSID\{9E56BE61-C50F-11CF-9A2C-00A0C90A90CE}
+.deskthemepack=desktopthemepackfile
+.det=Outlook.File.det.15
+.dff=GOMPlayer.dff
+.diagcab=Diagnostic.Cabinet
+.diagcfg=Diagnostic.Config
+.diagpkg=Diagnostic.Document
+.dib=Paint.Picture
+.dll=dllfile
+.dmb=GOMPlayer.dmb
+.dmskm=GOMPlayer.dmskm
+.doc=Word.Document.8
+.dochtml=wordhtmlfile
+.docm=Word.DocumentMacroEnabled.12
+.docmhtml=wordmhtmlfile
+.docx=Word.Document.12
+.docxml=wordxmlfile
+.dot=Word.Template.8
+.dothtml=wordhtmltemplate
+.dotm=Word.TemplateMacroEnabled.12
+.dotx=Word.Template.12
+.dqy=dqyfile
+.drv=drvfile
+.dsf=GOMPlayer.dsf
+.dsn=MSDASQL
+.dss=GOMPlayer.dss
+.duk=GOMPlayer.duk
+.dvd=GOMPlayer.dvd
+.dvr-ms=GOMPlayer.dvr-ms
+.elm=ELMFile
+.emf=emffile
+.eml=Outlook.File.eml.15
+.evo=GOMPlayer.evo
+.evt=evtfile
+.evtx=evtxfile
+.exe=exefile
+.fdm=Outlook.File.fdm.15
+.flac=WMP11.AssocFile.FLAC
+.flv=GOMPlayer.flv
+.fon=fonfile
+.gbm=GOMPlayer.gbm
+.gcsx=GCSXFile
+.gif=giffile
+.glox=GLOXFile
+.gmmp=gmmpfile
+.gom=GOMPlayer.gom
+.gps=Gomplayer.Skinfile
+.gqsx=GQSXFile
+.gra=MSGraph.Chart.8
+.grp=MSProgramGroup
+.gsm=GOMPlayer.gsm
+.gxf=GOMPlayer.gxf
+.gz=WinRAR
+.h264=GOMPlayer.h264
+.hlp=hlpfile
+.hol=Outlook.File.hol.15
+.hta=htafile
+.htm=htmlfile
+.html=htmlfile
+.hxa=MSHelp.hxa.2.5
+.hxc=MSHelp.hxc.2.5
+.hxd=MSHelp.hxd.2.5
+.hxe=MSHelp.hxe.2.5
+.hxf=MSHelp.hxf.2.5
+.hxh=MSHelp.hxh.2.5
+.hxi=MSHelp.hxi.2.5
+.hxk=MSHelp.hxk.2.5
+.hxq=MSHelp.hxq.2.5
+.hxr=MSHelp.hxr.2.5
+.hxs=MSHelp.hxs.2.5
+.hxt=MSHelp.hxt.2.5
+.hxv=MSHelp.hxv.2.5
+.hxw=MSHelp.hxa.2.5
+.icc=icmfile
+.icl=IconLibraryFile
+.icm=icmfile
+.ico=icofile
+.ics=Outlook.File.ics.15
+.ifo=GOMPlayer.ifo
+.imesx=imesxfile
+.img=Windows.IsoFile
+.inf=inffile
+.ini=inifile
+.iqy=iqyfile
+.iso=Windows.IsoFile
+.jar=jarfile
+.jfif=pjpegfile
+.jfr=jfrfile
+.jnlp=JNLPFile
+.Job=JobObject
+.jod=Microsoft.Jet.OLEDB.4.0
+.jpe=jpegfile
+.jpeg=jpegfile
+.jpg=jpegfile
+.js=JSFile
+.JSE=JSEFile
+.jude=astah-UML
+.jxr=wdpfile
+.k3g=GOMPlayer.k3g
+.label=Label
+.laccdb=Access.LockFile.16
+.ldb=Access.LockFile.16
+.lex=LEXFile
+.lha=WinRAR
+.library-ms=LibraryFolder
+.lmp4=GOMPlayer.lmp4
+.lnk=lnkfile
+.log=txtfile
+.lz=WinRAR
+.lzh=WinRAR
+.m1v=WMP11.AssocFile.MPEG
+.M2T=WMP11.AssocFile.M2TS
+.M2TS=WMP11.AssocFile.M2TS
+.M2V=WMP11.AssocFile.MPEG
+.m3u=WMP11.AssocFile.m3u
+.m4a=WMP11.AssocFile.M4A
+.m4v=WMP11.AssocFile.MP4
+.mad=Access.Shortcut.Module.1
+.maf=Access.Shortcut.Form.1
+.mag=Access.Shortcut.Diagram.1
+.mam=Access.Shortcut.Macro.1
+.mapimail=CLSID\{9E56BE60-C50F-11CF-9A2C-00A0C90A90CE}
+.maq=Access.Shortcut.Query.1
+.mar=Access.Shortcut.Report.1
+.mas=Access.Shortcut.StoredProcedure.1
+.mat=Access.Shortcut.Table.1
+.mau=Access.Shortcut.Function.1
+.mav=Access.Shortcut.View.1
+.maw=Access.Shortcut.DataAccessPage.1
+.mda=Access.Extension.16
+.mdb=Access.MDBFile
+.mdbhtml=accesshtmlfile
+.mde=Access.MDEFile.16
+.mdj=mdj
+.mdn=Access.BlankDatabaseTemplate.16
+.mdt=Access.WizardDataFile.16
+.mdw=Access.Workgroup.16
+.mht=mhtmlfile
+.mhtml=mhtmlfile
+.mid=WMP11.AssocFile.MIDI
+.midi=WMP11.AssocFile.MIDI
+.mk3d=WMP11.AssocFile.MK3D
+.mka=WMP11.AssocFile.MKA
+.mkv=WMP11.AssocFile.MKV
+.mlc=LpkSetup.1
+.MOD=WMP11.AssocFile.MPEG
+.mov=WMP11.AssocFile.MOV
+.mp2=GOMPlayer.mp2
+.mp2v=WMP11.AssocFile.MPEG
+.mp3=WMP11.AssocFile.MP3
+.mp4=WMP11.AssocFile.MP4
+.mp4v=WMP11.AssocFile.MP4
+.mpa=WMP11.AssocFile.MPEG
+.mpc=GOMPlayer.mpc
+.mpe=WMP11.AssocFile.MPEG
+.mpeg=WMP11.AssocFile.MPEG
+.mpg=WMP11.AssocFile.MPEG
+.mpq=GOMPlayer.mpq
+.mpv2=WMP11.AssocFile.MPEG
+.mqv=GOMPlayer.mqv
+.ms-windows-store-license=WindowsStore.License
+.msc=MSCFile
+.msg=Outlook.File.msg.15
+.msi=Msi.Package
+.msp=Msi.Patch
+.msrcincident=RemoteAssistance.1
+.msstyles=msstylesfile
+.msu=Microsoft.System.Update.1
+.MTS=WMP11.AssocFile.M2TS
+.mxf=GOMPlayer.mxf
+.mydocs=CLSID\{ECF03A32-103D-11d2-854D-006008059367}
+.ncg=GOMPlayer.ncg
+.nfo=MSInfoFile
+.nk2=Outlook.File.nk2.15
+.nst=Outlook.File.nst.15
+.nsv=GOMPlayer.nsv
+.ocx=ocxfile
+.odc=odcfile
+.odccubefile=odccubefile
+.odcdatabasefile=odcdatabasefile
+.odcnewfile=odcnewfile
+.odctablecollectionfile=odctablecollectionfile
+.odctablefile=odctablefile
+.odp=PowerPoint.OpenDocumentPresentation.12
+.ods=Excel.OpenDocumentSpreadsheet.12
+.odt=Word.OpenDocumentText.12
+.ofs=Outlook.File.ofs.15
+.oft=Outlook.File.oft.15
+.ols=OfficeListShortcut
+.oma=GOMPlayer.oma
+.one=OneNote.Section.1
+.onepkg=OneNote.Package
+.onetoc=OneNote.TableOfContents
+.onetoc2=OneNote.TableOfContents.12
+.opc=OPCFile
+.oqy=oqyfile
+.osdx=opensearchdescription
+.ost=Outlook.File.ost.15
+.otf=otffile
+.otm=Outlook.File.otm.15
+.p10=P10File
+.p12=PFXFile
+.p7b=SPCFile
+.p7c=certificate_wab_auto_file
+.p7m=P7MFile
+.p7r=P7RFile
+.p7s=P7SFile
+.pab=Outlook.File.pab.15
+.partial=IE.AssocFile.PARTIAL
+.pbk=pbkfile
+.pcb=PCBFile
+.perfmoncfg=Diagnostic.Perfmon.Config
+.pfm=pfmfile
+.pfx=PFXFile
+.pif=piffile
+.pko=PKOFile
+.pnf=pnffile
+.png=pngfile
+.pot=PowerPoint.Template.8
+.pothtml=powerpointhtmltemplate
+.potm=PowerPoint.TemplateMacroEnabled.12
+.potx=PowerPoint.Template.12
+.ppa=PowerPoint.Addin.8
+.ppam=PowerPoint.Addin.12
+.ppkg=Microsoft.ProvTool.Provisioning.1
+.pps=PowerPoint.SlideShow.8
+.ppsm=PowerPoint.SlideShowMacroEnabled.12
+.ppsx=PowerPoint.SlideShow.12
+.ppt=PowerPoint.Show.8
+.ppthtml=powerpointhtmlfile
+.pptm=PowerPoint.ShowMacroEnabled.12
+.pptmhtml=powerpointmhtmlfile
+.pptx=PowerPoint.Show.12
+.pptxml=powerpointxmlfile
+.prf=prffile
+.printerExport=brmFile
+.ps1=Microsoft.PowerShellScript.1
+.ps1xml=Microsoft.PowerShellXMLData.1
+.psb=GOMPlayer.psb
+.psc1=Microsoft.PowerShellConsole.1
+.psd1=Microsoft.PowerShellData.1
+.psm1=Microsoft.PowerShellModule.1
+.pssc=Microsoft.PowerShellSessionConfiguration.1
+.pst=Outlook.File.pst.15
+.pub=Publisher.Document.16
+.pubhtml=publisherhtmlfile
+.pubmhtml=publishermhtmlfile
+.pwz=PowerPoint.Wizard.8
+.qds=SavedDsQuery
+.qgs=QGIS Project
+.qlr=QGIS Layer Definition
+.qml=QGIS Layer Settings
+.qpt=QGIS Composer Template
+.qt=GOMPlayer.qt
+.r00=WinRAR
+.r01=WinRAR
+.r02=WinRAR
+.r03=WinRAR
+.r04=WinRAR
+.r05=WinRAR
+.r06=WinRAR
+.r07=WinRAR
+.r08=WinRAR
+.r09=WinRAR
+.r10=WinRAR
+.r11=WinRAR
+.r12=WinRAR
+.r13=WinRAR
+.r14=WinRAR
+.r15=WinRAR
+.r16=WinRAR
+.r17=WinRAR
+.r18=WinRAR
+.r19=WinRAR
+.r20=WinRAR
+.r21=WinRAR
+.r22=WinRAR
+.r23=WinRAR
+.r24=WinRAR
+.r25=WinRAR
+.r26=WinRAR
+.r27=WinRAR
+.r28=WinRAR
+.r29=WinRAR
+.rar=WinRAR
+.rat=ratfile
+.RData=RWorkspace
+.RDP=RDP.File
+.reg=regfile
+.resmoncfg=Diagnostic.Resmon.Config
+.rev=WinRAR.REV
+.rle=rlefile
+.rll=dllfile
+.rm=GOMPlayer.rm
+.rmi=WMP11.AssocFile.MIDI
+.rmvb=GOMPlayer.rmvb
+.rqy=rqyfile
+.rso=GOMPlayer.rso
+.rt=GOMPlayer.rt
+.rtf=Word.RTF.8
+.sav=SPSS.DataDocument
+.sbs=SPSS.SaxBasicDocument
+.sbv=GOMPlayer.sbv
+.scf=SHCmdFile
+.scp=txtfile
+.scr=scrfile
+.sct=scriptletfile
+.search-ms=SearchFolder
+.searchConnector-ms=SearchConnectorFolder
+.settingcontent-ms=SettingContent
+.sfcache=RDBFileProperties.1
+.sh=sh_auto_file
+.shn=GOMPlayer.shn
+.shtml=shtmlfile
+.skm=GOMPlayer.skm
+.sldm=PowerPoint.SlideMacroEnabled.12
+.sldx=PowerPoint.Slide.12
+.slk=Excel.SLK
+.smi=GOMPlayer.smi
+.smil=GOMPlayer.smil
+.snd=WMP11.AssocFile.AU
+.spc=SPCFile
+.spd=SPSS.UIBuilderDocument
+.spe=SPSS.ExtBundle
+.spj=SPSS.ProductionDocument
+.spl=ShockwaveFlash.ShockwaveFlash
+.splan=SPSS.SimulationDocument
+.spq=SPSS.DBQueryDocument
+.sps=SPSS.SyntaxDocument
+.spsx=SPSS.PPDocument
+.spv=SPSS.OutputDocument
+.spx=GOMPlayer.spx
+.srt=GOMPlayer.srt
+.ssa=GOMPlayer.ssa
+.sst=CertificateStoreFile
+.sub=GOMPlayer.sub
+.sup=GOMPlayer.sup
+.svg=svgfile
+.svi=GOMPlayer.svi
+.swf=GOMPlayer.swf
+.symlink=.symlink
+.sys=sysfile
+.tak=GOMPlayer.tak
+.tar=WinRAR
+.taz=WinRAR
+.tbz=WinRAR
+.tbz2=WinRAR
+.tgz=WinRAR
+.theme=themefile
+.themepack=themepackfile
+.thmx=OfficeTheme.12
+.tif=TIFImage.Document
+.tiff=TIFImage.Document
+.tlz=WinRAR
+.tp=GOMPlayer.tp
+.TS=WMP11.AssocFile.TTS
+.tta=GOMPlayer.tta
+.ttc=ttcfile
+.ttf=ttffile
+.TTS=WMP11.AssocFile.TTS
+.txt=txtfile
+.txz=WinRAR
+.UDL=MSDASC
+.URL=InternetShortcut
+.uu=WinRAR
+.uue=WinRAR
+.uxdc=UXDCFILE
+.VBE=VBEFile
+.vbs=VBSFile
+.vcf=Outlook.File.vcf.15
+.vcs=Outlook.File.vcs.15
+.vdr=GOMPlayer.vdr
+.vdw=VisioViewer.Viewer
+.vdx=VisioViewer.Viewer
+.vhd=Windows.VhdFile
+.vhdpmem=Windows.VhdPmemFile
+.vhdx=Windows.VhdFile
+.vob=GOMPlayer.vob
+.vp6=GOMPlayer.vp6
+.vp7=GOMPlayer.vp7
+.vsd=VisioViewer.Viewer
+.vsdm=VisioViewer.Viewer
+.vsdx=VisioViewer.Viewer
+.vss=VisioViewer.Viewer
+.vssm=VisioViewer.Viewer
+.vssx=VisioViewer.Viewer
+.vst=VisioViewer.Viewer
+.vstm=VisioViewer.Viewer
+.vsto=bootstrap.vsto.1
+.vstx=VisioViewer.Viewer
+.vsx=VisioViewer.Viewer
+.vtt=GOMPlayer.vtt
+.vtx=VisioViewer.Viewer
+.vxd=vxdfile
+.wab=wab_auto_file
+.wav=WMP11.AssocFile.WAV
+.wax=WMP11.AssocFile.WAX
+.wbcat=wbcatfile
+.wbk=Word.Backup.8
+.wcx=wcxfile
+.wdp=wdpfile
+.webpnp=webpnpFile
+.website=Microsoft.Website
+.wfp=WFPFile
+.wiz=Word.Wizard.8
+.wizhtml=accessthmltemplate
+.wll=Word.Addin.8
+.wm=WMP11.AssocFile.ASF
+.wma=WMP11.AssocFile.WMA
+.WMD=WMP11.AssocFile.WMD
+.wmdb=WMP.WMDBFile
+.wmf=wmffile
+.wmp=GOMPlayer.wmp
+.WMS=WMP11.AssocFile.WMS
+.wmv=WMP11.AssocFile.WMV
+.wmx=GOMPlayer.wmx
+.wmz=WMP11.AssocFile.WMZ
+.wpl=WMP11.AssocFile.WPL
+.wsc=scriptletfile
+.WSF=WSFFile
+.WSH=WSHFile
+.wtx=txtfile
+.wv=GOMPlayer.wv
+.wvx=GOMPlayer.wvx
+.wwd=SPSS.WinWrapBasicDocument
+.xaml=Windows.XamlDocument
+.xbap=Windows.Xbap
+.xevgenxml=XEV.GenericApp
+.xht=xhtmlfile
+.xhtml=xhtmlfile
+.xla=Excel.Addin
+.xlam=Excel.AddInMacroEnabled
+.xld=Excel.Dialog
+.xlk=Excel.Backup
+.xll=Excel.XLL
+.xlm=Excel.Macrosheet
+.xls=Excel.Sheet.8
+.xlsb=Excel.SheetBinaryMacroEnabled.12
+.xlshtml=Excelhtmlfile
+.xlsm=Excel.SheetMacroEnabled.12
+.xlsmhtml=excelmhtmlfile
+.xlsx=Excel.Sheet.12
+.xlt=Excel.Template.8
+.xlthtml=Excelhtmltemplate
+.xltm=Excel.TemplateMacroEnabled
+.xltx=Excel.Template
+.xlw=Excel.Workspace
+.xlxml=Excelxmlss
+.xml=xmlfile
+.xrm-ms=MSSppLicenseFile
+.xsl=xslfile
+.xxe=WinRAR
+.xz=WinRAR
+.z=WinRAR
+.ZFSendToTarget=CLSID\{888DCA60-FC0A-11CF-8F0F-00C04FD7D062}
+.zip=WinRAR.ZIP
+.zipx=WinRAR
+.zsav=SPSS.DataFile
+
+
+
+
+
+C:\Users\acer>path
+PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;
+C:\WINDOWS\system32;
+C:\WINDOWS;C:\WINDOWS\System32\Wbem;
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\;
+C:\WINDOWS\System32\OpenSSH\;
+C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;
+C:\Program Files\Git\cmd;C:\Program Files\nodejs\;
+c:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;
+C:\Users\acer\AppData\Local\Microsoft\WindowsApps;
+C:\Users\acer\AppData\Roaming\npm;
+
+
+
+
+
+C:\Users\acer>query
+Invalid parameter(s)
+QUERY { PROCESS | SESSION | TERMSERVER | USER }
+
+
+
+
+
+C:\Users\acer>date
+The current date is: Tue 02/18/2020
+Enter the new date: (mm-dd-yy)
+
+
+
+
+
+C:\Users\acer>copy pictures
+pictures\05.jpg
+pictures\1.jpg
+pictures\1.PNG
+pictures\2.jpg
+pictures\2.PNG
+pictures\3.jpg
+pictures\3.PNG
+pictures\4.PNG
+pictures\5.PNG
+pictures\6.PNG
+pictures\73.jpg
+pictures\Capture.PNG
+pictures\fodie.PNG
+pictures\garuda-merah-indonesia.png
+pictures\images (1).jpeg
+pictures\images.jpeg
+pictures\IMG-20191125-WA0039.jpg
+pictures\matkul.PNG
+       18 file(s) copied.
+	   
+	   
+	   
+	   
+
+C:\Users\acer>move documents
+        1 dir(s) moved.
+		
+		
+		
+		
+		
+C:\Users\acer>systeminfo
+
+Host Name:                 DESKTOP-TTK40PI
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.18362 N/A Build 18362
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          N/A
+Registered Organization:   N/A
+Product ID:                00331-10000-00001-AA442
+Original Install Date:     11/8/2019, 11:14:07 PM
+System Boot Time:          2/17/2020, 11:23:44 PM
+System Manufacturer:       Acer
+System Model:              Aspire Z3-451
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 21 Model 19 Stepping 1 AuthenticAMD ~2500 Mhz
+BIOS Version:              American Megatrends Inc. 1.00, 10/26/2016
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+07:00) Tomsk
+Total Physical Memory:     3,542 MB
+Available Physical Memory: 539 MB
+Virtual Memory: Max Size:  10,122 MB
+Virtual Memory: Available: 1,124 MB
+Virtual Memory: In Use:    8,998 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-TTK40PI
+Hotfix(s):                 6 Hotfix(s) Installed.
+                           [01]: KB4533002
+                           [02]: KB4516115
+                           [03]: KB4521863
+                           [04]: KB4524569
+                           [05]: KB4538674
+                           [06]: KB4530684
+Network Card(s):           3 NIC(s) Installed.
+                           [01]: Realtek RTL8723BE Wireless LAN 802.11n PCI-E NIC
+                                 Connection Name: Wi-Fi
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.43.1
+                                 IP address(es)
+                                 [01]: 192.168.43.184
+                                 [02]: fe80::b406:2265:4b3:2e66
+                                 [03]: 2404:c0:3091:1e50:14d2:463f:7ae6:6288
+                                 [04]: 2404:c0:3091:1e50:b406:2265:4b3:2e66
+                           [02]: Realtek PCIe GbE Family Controller
+                                 Connection Name: Ethernet
+                                 Status:          Media disconnected
+                           [03]: Bluetooth Device (Personal Area Network)
+                                 Connection Name: Bluetooth Network Connection
+                                 Status:          Media disconnected
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+						   
+						   
+						   
+						   
+						   
+C:\Users\acer>tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0        116 K
+Registry                       104 Services                   0     65,660 K
+smss.exe                       368 Services                   0        964 K
+csrss.exe                      564 Services                   0      4,596 K
+wininit.exe                    664 Services                   0      5,720 K
+csrss.exe                      672 Console                    1      5,784 K
+winlogon.exe                   764 Console                    1      8,520 K
+services.exe                   804 Services                   0      7,032 K
+lsass.exe                      816 Services                   0     15,540 K
+svchost.exe                    928 Services                   0     43,784 K
+fontdrvhost.exe                952 Console                    1      5,168 K
+fontdrvhost.exe                960 Services                   0      2,212 K
+svchost.exe                    300 Services                   0     38,552 K
+dwm.exe                        884 Console                    1     25,480 K
+svchost.exe                   1084 Services                   0     50,692 K
+svchost.exe                   1144 Services                   0     71,168 K
+svchost.exe                   1324 Services                   0     36,724 K
+svchost.exe                   1320 Services                   0     19,220 K
+svchost.exe                   1336 Services                   0     22,880 K
+svchost.exe                   1344 Services                   0     21,680 K
+svchost.exe                   1648 Services                   0     13,360 K
+atiesrxx.exe                  1780 Services                   0      5,172 K
+svchost.exe                   1832 Services                   0     43,932 K
+atieclxx.exe                  1872 Console                    1      8,408 K
+wsc_proxy.exe                 1908 Services                   0      8,992 K
+Memory Compression            1944 Services                   0     54,552 K
+svchost.exe                   2040 Services                   0     37,980 K
+svchost.exe                   2068 Services                   0     37,732 K
+svchost.exe                   2144 Services                   0     38,188 K
+svchost.exe                   2160 Services                   0     38,376 K
+svchost.exe                   2364 Services                   0     16,188 K
+AvastSvc.exe                  2484 Services                   0    116,036 K
+spoolsv.exe                   2684 Services                   0     13,928 K
+svchost.exe                   2728 Services                   0     12,532 K
+svchost.exe                   3032 Services                   0     20,888 K
+OfficeClickToRun.exe          3044 Services                   0      7,060 K
+ETDService.exe                3056 Services                   0      2,636 K
+Fuel.Service.exe              2128 Services                   0      6,400 K
+SegurazoIC.exe                2412 Services                   0     11,176 K
+SegurazoService.exe           2536 Services                   0     53,072 K
+svchost.exe                   2420 Services                   0     34,104 K
+svchost.exe                   3704 Services                   0      8,292 K
+ETDCtrl.exe                   2996 Console                    1      7,772 K
+sihost.exe                    3304 Console                    1     13,616 K
+svchost.exe                   3328 Console                    1     23,376 K
+taskhostw.exe                 3568 Console                    1     14,944 K
+ctfmon.exe                    2584 Console                    1     13,992 K
+explorer.exe                  2636 Console                    1     81,608 K
+dllhost.exe                   2832 Services                   0     10,256 K
+rundll32.exe                  4288 Console                    1      9,056 K
+svchost.exe                   4408 Console                    1     41,060 K
+dllhost.exe                   4460 Console                    1     28,488 K
+ETDCtrlHelper.exe             4468 Console                    1      7,088 K
+StartMenuExperienceHost.e     4884 Console                    1     18,388 K
+RuntimeBroker.exe             4968 Console                    1      9,564 K
+SearchIndexer.exe             5104 Services                   0     36,840 K
+RuntimeBroker.exe             5176 Console                    1     25,412 K
+MicrosoftEdge.exe             5332 Console                    1      8,432 K
+ApplicationFrameHost.exe      5340 Console                    1     15,748 K
+browser_broker.exe            5608 Console                    1     12,464 K
+MicrosoftEdgeCP.exe           5968 Console                    1      6,544 K
+RuntimeBroker.exe             1280 Console                    1      6,744 K
+MicrosoftEdgeSH.exe           5756 Console                    1     10,640 K
+svchost.exe                   4020 Services                   0      5,612 K
+SettingSyncHost.exe            512 Console                    1      3,536 K
+SearchUI.exe                  6440 Console                    1     54,252 K
+SecurityHealthSystray.exe     6568 Console                    1      7,848 K
+SecurityHealthService.exe     6724 Services                   0     13,404 K
+AvastUI.exe                   6764 Console                    1     25,976 K
+jusched.exe                   4892 Console                    1      6,600 K
+WSHelper.exe                  4788 Console                    1      4,292 K
+MOM.exe                       5152 Console                    1      6,540 K
+svchost.exe                   3488 Services                   0      8,096 K
+CCC.exe                       2180 Console                    1     24,792 K
+svchost.exe                   5272 Services                   0      9,024 K
+aswidsagent.exe               1060 Services                   0     36,552 K
+ShellExperienceHost.exe       6484 Console                    1        124 K
+CCleaner64.exe                5076 Console                    1     10,588 K
+RuntimeBroker.exe             7240 Console                    1      1,896 K
+SegurazoClient.exe            5876 Console                    1     20,988 K
+dasHost.exe                   7052 Services                   0      9,052 K
+svchost.exe                   8228 Services                   0      5,484 K
+WmiApSrv.exe                  8300 Services                   0     10,408 K
+SecurityHealthHost.exe        7492 Console                    1     13,332 K
+firefox.exe                   8960 Console                    1    212,664 K
+firefox.exe                   7652 Console                    1     21,256 K
+firefox.exe                   6316 Console                    1     48,856 K
+GameBar.exe                   8484 Console                    1      5,480 K
+firefox.exe                   2080 Console                    1    165,140 K
+firefox.exe                   9372 Console                    1     10,768 K
+RuntimeBroker.exe             9732 Console                    1     14,600 K
+GameBarFT.exe                 9844 Console                    1     16,096 K
+AvastUI.exe                   9896 Console                    1     11,852 K
+SgrmBroker.exe               11240 Services                   0      5,304 K
+firefox.exe                   6560 Console                    1     63,268 K
+firefox.exe                  10528 Console                    1      7,908 K
+unsecapp.exe                  8784 Services                   0      1,868 K
+taskhostw.exe                11116 Console                    1      5,068 K
+GoogleCrashHandler.exe       10316 Services                   0         16 K
+GoogleCrashHandler64.exe     11072 Services                   0         16 K
+dllhost.exe                  10920 Console                    1      6,220 K
+RuntimeBroker.exe            11584 Console                    1      3,936 K
+svchost.exe                  11740 Services                   0      5,652 K
+WindowsInternal.Composabl     1956 Console                    1      8,316 K
+git-bash.exe                 12188 Console                    1      4,428 K
+mintty.exe                   12036 Console                    1      5,784 K
+conhost.exe                   9656 Console                    1      6,680 K
+bash.exe                     10488 Console                    1      6,192 K
+Video.UI.exe                  8536 Console                    1        240 K
+RuntimeBroker.exe            10992 Console                    1      4,452 K
+smartscreen.exe               7780 Console                    1     13,536 K
+notepad++.exe                 4484 Console                    1     11,080 K
+firefox.exe                   8556 Console                    1     70,332 K
+RuntimeBroker.exe             7832 Console                    1     16,052 K
+WWAHost.exe                   4648 Console                    1         80 K
+WWAHost.exe                  10336 Console                    1      4,788 K
+RuntimeBroker.exe            10264 Console                    1      3,412 K
+OneDrive.exe                 10700 Console                    1      3,896 K
+usocoreworker.exe             9220 Services                   0      8,400 K
+firefox.exe                   8092 Console                    1     83,696 K
+YourPhone.exe                 1212 Console                    1         68 K
+RuntimeBroker.exe            10036 Console                    1      1,144 K
+firefox.exe                   8068 Console                    1     28,812 K
+TrustedInstaller.exe          3372 Services                   0      3,940 K
+wuauclt.exe                   7752 Services                   0      3,496 K
+TiWorker.exe                  4264 Services                   0     88,288 K
+WmiPrvSE.exe                  6668 Services                   0     15,760 K
+dxdiag.exe                    4912 Console                    1     16,836 K
+firefox.exe                   9868 Console                    1     38,856 K
+svchost.exe                   8992 Services                   0     10,892 K
+backgroundTaskHost.exe        7292 Console                    1     20,824 K
+cmd.exe                       2236 Console                    1      4,172 K
+conhost.exe                   5672 Console                    1     18,960 K
+tasklist.exe                 11592 Console                    1     12,680 K
+VSSVC.exe                      968 Services                   0      7,992 K
+svchost.exe                   7256 Services                   0      7,492 K
+
+
+
+
+
+C:\Users\acer>time
+The current time is:  1:39:53.01
+Enter the new time:
+
+
+
+
+
+C:\Users\acer>ver
+
+Microsoft Windows [Version 10.0.18362.535]
+
+
+
+
+
+F:\Data>tree
+Folder PATH listing
+Volume serial number is A419-8D95
+F:.
+├───Cache
+│   ├───ActionScript
+│   ├───AppleScript
+│   ├───ASP
+│   ├───Batch File
+│   ├───C#
+│   ├───C++
+│   ├───Clojure
+│   ├───CSS
+│   ├───D
+│   ├───Default
+│   ├───Diff
+│   ├───Erlang
+│   ├───Git Formats
+│   ├───Go
+│   ├───Graphviz
+│   ├───Groovy
+│   ├───Haskell
+│   ├───HTML
+│   ├───Java
+│   ├───JavaScript
+│   ├───LaTeX
+│   ├───Lisp
+│   ├───Lua
+│   ├───Makefile
+│   ├───Markdown
+│   ├───Matlab
+│   ├───Objective-C
+│   ├───OCaml
+│   ├───Pascal
+│   ├───Perl
+│   ├───PHP
+│   ├───Python
+│   ├───R
+│   ├───Rails
+│   ├───Regular Expressions
+│   ├───RestructuredText
+│   ├───Ruby
+│   ├───Rust
+│   ├───Scala
+│   ├───ShellScript
+│   ├───SQL
+│   ├───TCL
+│   ├───Text
+│   ├───Textile
+│   ├───XML
+│   └───YAML
+├───Index
+├───Installed Packages
+├───Lib
+│   └───python3.3
+├───Local
+└───Packages
+    └───User
+	
+	
+	
+	
+	
+C:\Users\acer>netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:49794        DESKTOP-TTK40PI:49795  ESTABLISHED
+  TCP    127.0.0.1:49795        DESKTOP-TTK40PI:49794  ESTABLISHED
+  TCP    127.0.0.1:49810        DESKTOP-TTK40PI:49811  ESTABLISHED
+  TCP    127.0.0.1:49811        DESKTOP-TTK40PI:49810  ESTABLISHED
+  TCP    127.0.0.1:49819        DESKTOP-TTK40PI:49820  ESTABLISHED
+  TCP    127.0.0.1:49820        DESKTOP-TTK40PI:49819  ESTABLISHED
+  TCP    127.0.0.1:49829        DESKTOP-TTK40PI:49830  ESTABLISHED
+  TCP    127.0.0.1:49830        DESKTOP-TTK40PI:49829  ESTABLISHED
+  TCP    127.0.0.1:50062        DESKTOP-TTK40PI:50063  ESTABLISHED
+  TCP    127.0.0.1:50063        DESKTOP-TTK40PI:50062  ESTABLISHED
+  TCP    127.0.0.1:51099        DESKTOP-TTK40PI:51100  ESTABLISHED
+  TCP    127.0.0.1:51100        DESKTOP-TTK40PI:51099  ESTABLISHED
+  TCP    127.0.0.1:51675        DESKTOP-TTK40PI:51676  ESTABLISHED
+  TCP    127.0.0.1:51676        DESKTOP-TTK40PI:51675  ESTABLISHED
+  TCP    127.0.0.1:51910        DESKTOP-TTK40PI:51911  ESTABLISHED
+  TCP    127.0.0.1:51911        DESKTOP-TTK40PI:51910  ESTABLISHED
+  TCP    127.0.0.1:52572        DESKTOP-TTK40PI:52573  ESTABLISHED
+  TCP    127.0.0.1:52573        DESKTOP-TTK40PI:52572  ESTABLISHED
+  
+  
+  
+  
+  
+C:\Users\acer>tracert
+
+Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
+               [-R] [-S srcaddr] [-4] [-6] target_name
+
+Options:
+    -d                 Do not resolve addresses to hostnames.
+    -h maximum_hops    Maximum number of hops to search for target.
+    -j host-list       Loose source route along host-list (IPv4-only).
+    -w timeout         Wait timeout milliseconds for each reply.
+    -R                 Trace round-trip path (IPv6-only).
+    -S srcaddr         Source address to use (IPv6-only).
+    -4                 Force using IPv4.
+    -6                 Force using IPv6.
+	
+	
+	
+	
+	
+C:\Users\acer>route
+
+Manipulates network routing tables.
+
+ROUTE [-f] [-p] [-4|-6] command [destination]
+                  [MASK netmask]  [gateway] [METRIC metric]  [IF interface]
+
+  -f           Clears the routing tables of all gateway entries.  If this is
+               used in conjunction with one of the commands, the tables are
+               cleared prior to running the command.
+
+  -p           When used with the ADD command, makes a route persistent across
+               boots of the system. By default, routes are not preserved
+               when the system is restarted. Ignored for all other commands,
+               which always affect the appropriate persistent routes.
+
+  -4           Force using IPv4.
+
+  -6           Force using IPv6.
+
+  command      One of these:
+                 PRINT     Prints  a route
+                 ADD       Adds    a route
+                 DELETE    Deletes a route
+                 CHANGE    Modifies an existing route
+  destination  Specifies the host.
+  MASK         Specifies that the next parameter is the 'netmask' value.
+  netmask      Specifies a subnet mask value for this route entry.
+               If not specified, it defaults to 255.255.255.255.
+  gateway      Specifies gateway.
+  interface    the interface number for the specified route.
+  METRIC       specifies the metric, ie. cost for the destination.
+
+All symbolic names used for destination are looked up in the network database
+file NETWORKS. The symbolic names for gateway are looked up in the host name
+database file HOSTS.
+
+If the command is PRINT or DELETE. Destination or gateway can be a wildcard,
+(wildcard is specified as a star '*'), or the gateway argument may be omitted.
+
+If Dest contains a * or ?, it is treated as a shell pattern, and only
+matching destination routes are printed. The '*' matches any string,
+and '?' matches any one char. Examples: 157.*.1, 157.*, 127.*, *224*.
+
+Pattern match is only allowed in PRINT command.
+Diagnostic Notes:
+    Invalid MASK generates an error, that is when (DEST & MASK) != DEST.
+    Example> route ADD 157.0.0.0 MASK 155.0.0.0 157.55.80.1 IF 1
+             The route addition failed: The specified mask parameter is invalid. (Destination & Mask) != Destination.
+
+Examples:
+
+    > route PRINT
+    > route PRINT -4
+    > route PRINT -6
+    > route PRINT 157*          .... Only prints those matching 157*
+
+    > route ADD 157.0.0.0 MASK 255.0.0.0  157.55.80.1 METRIC 3 IF 2
+             destination^      ^mask      ^gateway     metric^    ^
+                                                         Interface^
+      If IF is not given, it tries to find the best interface for a given
+      gateway.
+    > route ADD 3ffe::/32 3ffe::1
+
+    > route CHANGE 157.0.0.0 MASK 255.0.0.0 157.55.80.5 METRIC 2 IF 2
+
+      CHANGE is used to modify gateway and/or metric only.
+
+    > route DELETE 157.0.0.0
+    > route DELETE 3ffe::/32
+	
+	
+	
+	
+	
+C:\Users\acer>ping 8.8.8.8
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=54ms TTL=251
+Reply from 8.8.8.8: bytes=32 time=43ms TTL=251
+Reply from 8.8.8.8: bytes=32 time=38ms TTL=251
+Reply from 8.8.8.8: bytes=32 time=41ms TTL=251
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 38ms, Maximum = 54ms, Average = 44ms
+	
+	
+	
+	
+	
+C:\Users\acer>vol
+ Volume in drive C has no label.
+ Volume Serial Number is C2F6-3EA3
+ 
+ 
+ 
+ 
+ 
+ C:\Users\acer>cacls
+
+ NOTE: Cacls is now deprecated, please use Icacls.
+
+ Displays or modifies access control lists (ACLs) of files
+
+ CACLS filename [/T] [/M] [/L] [/S[:SDDL]] [/E] [/C] [/G user:perm]
+        [/R user [...]] [/P user:perm [...]] [/D user [...]]
+    filename      Displays ACLs.
+    /T            Changes ACLs of specified files in
+                  the current directory and all subdirectories.
+    /L            Work on the Symbolic Link itself versus the target
+    /M            Changes ACLs of volumes mounted to a directory
+    /S            Displays the SDDL string for the DACL.
+    /S:SDDL       Replaces the ACLs with those specified in the SDDL string
+                  (not valid with /E, /G, /R, /P, or /D).
+    /E            Edit ACL instead of replacing it.
+    /C            Continue on access denied errors.
+    /G user:perm  Grant specified user access rights.
+                  Perm can be: R  Read
+                               W  Write
+                               C  Change (write)
+                               F  Full control
+    /R user       Revoke specified user's access rights (only valid with /E).
+    /P user:perm  Replace specified user's access rights.
+                  Perm can be: N  None
+                               R  Read
+                               W  Write
+                               C  Change (write)
+                               F  Full control
+    /D user       Deny specified user access.
+ Wildcards can be used to specify more than one file in a command.
+ You can specify more than one user in a command.
+
+ Abbreviations:
+    CI - Container Inherit.
+         The ACE will be inherited by directories.
+    OI - Object Inherit.
+         The ACE will be inherited by files.
+    IO - Inherit Only.
+         The ACE does not apply to the current file/directory.
+    ID - Inherited.
+         The ACE was inherited from the parent directory's ACL.
