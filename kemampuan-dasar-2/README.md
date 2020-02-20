@@ -1,7 +1,8 @@
 Praxis-academy
-  kemampuan dasar 1 
+ kemampuan dasar
+   kemampuan dasar 1 
       Latihan
         Powershellscript
             Shellscript
-  kemampuan dasar 2
+   kemampuan dasar 2
       Wawasan
