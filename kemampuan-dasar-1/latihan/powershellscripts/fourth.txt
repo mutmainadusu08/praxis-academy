@@ -1,0 +1,35 @@
+PS C:\Users\acer> F:\magang_sisteminformasi\script333.bat
+Press any key to continue . . .
+
+Custom PowerShell profile in effect!
+Press any key to continue . . .
+
+
+Add-Content -Path 'F:\magang_sisteminformasi\script333.ps1' -Value "[ZoneTransfer]`nZoneId=3" -Stream 'Zone.Identifier'
+Custom PowerShell profile in effect!
+Press any key to continue . . .
+
+
+Clear-Content -Path 'F:\magang_sisteminformasi\script333.ps1' -Stream 'Zone.Identifier'
+Custom PowerShell profile in effect!
+Press any key to continue . . .
+
+PowerShell.exe -ExecutionPolicy Bypass -Command "& '%~dpn0.ps1'"
+Custom PowerShell profile in effect!
+Press any key to continue . . .
+
+if (([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))
+{Write-Output 'Running as Administrator!'}
+else
+{Write-Output 'Running Limited!'}
+Pause
+Custom PowerShell profile in effect!
+Press any key to continue . . .
+
+PowerShell.exe -Command "& {Start-Process PowerShell.exe -ArgumentList '-ExecutionPolicy Bypass -File ""%~dpn0.ps1""' -Verb RunAs}"
+Custom PowerShell profile in effect!
+Press any key to continue . . .
+
+PowerShell.exe -NoProfile -Command "& {Start-Process PowerShell.exe -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File ""%~dpn0.ps1""' -Verb RunAs}"
+Custom PowerShell profile in effect!
+Press any key to continue . . .

@@ -1,16 +1,27 @@
-PS C:\Users\acer> & "E:\KULIAH\Magang Praxis\praxis-academy\kemampuan-dasar-1\latihan\powershellscripts\contohpowershell"
-& : The term 'E:\KULIAH\Magang Praxis\praxis-academy\kemampuan-dasar-1\latihan\p
-owershellscripts\contoh.ps1' is not recognized as the name of a cmdlet,
-function, script file, or operable program. Check the spelling of the name, or
-if a path was included, verify that the path is correct and try again.
-At line:1 char:3
-+ & "E:\KULIAH\Magang Praxis\praxis-academy\kemampuan-dasar-1\latihan\p ...
-+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (E:\KULIAH\Magan...ontohpowershel
-   l:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-	
-	
-	
-PS C:\WINDOWS\system32> & "E:\KULIAH\Magang Praxis\praxis-academy\kemampuan-dasar-1\latihan\powershellscripts\contoh.ps1"
-Hello, World!
+PS C:\Users\acer> F:\magang_sisteminformasi\MyFirst.ps1
+
+
+PS C:\Users\acer> & "F:\magang_sisteminformasi\MyFirst.ps1"	
+Set-ExecutionPolicy : Access to the registry key
+'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\ShellIds\Microsoft.PowerShell' is denied. To change the execution
+policy for the default (LocalMachine) scope, start Windows PowerShell with the "Run as administrator" option. To
+change the execution policy for the current user, run "Set-ExecutionPolicy -Scope CurrentUser".
+At line:1 char:1
++ Set-ExecutionPolicy RemoteSigned
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (:) [Set-ExecutionPolicy], UnauthorizedAccessException
+    + FullyQualifiedErrorId : System.UnauthorizedAccessException,Microsoft.PowerShell.Commands.SetExecutionPolicyComma
+   nd
+
+
+PS C:\WINDOWS\system32> Set-ExecutionPolicy RemoteSigned
+
+Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose
+you to the security risks described in the about_Execution_Policies help topic at
+https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): y
+
+
+PS C:\WINDOWS\system32> & "F:\magang_sisteminformasi\MyFirst.ps1"
+Hello, World
