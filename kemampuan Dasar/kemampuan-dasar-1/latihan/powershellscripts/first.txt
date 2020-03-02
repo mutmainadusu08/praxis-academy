@@ -1,0 +1,16 @@
+PS C:\Users\acer> & "E:\KULIAH\Magang Praxis\praxis-academy\kemampuan-dasar-1\latihan\powershellscripts\contohpowershell"
+& : The term 'E:\KULIAH\Magang Praxis\praxis-academy\kemampuan-dasar-1\latihan\p
+owershellscripts\contoh.ps1' is not recognized as the name of a cmdlet,
+function, script file, or operable program. Check the spelling of the name, or
+if a path was included, verify that the path is correct and try again.
+At line:1 char:3
++ & "E:\KULIAH\Magang Praxis\praxis-academy\kemampuan-dasar-1\latihan\p ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (E:\KULIAH\Magan...ontohpowershel
+   l:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+	
+	
+	
+PS C:\WINDOWS\system32> & "E:\KULIAH\Magang Praxis\praxis-academy\kemampuan-dasar-1\latihan\powershellscripts\contoh.ps1"
+Hello, World!

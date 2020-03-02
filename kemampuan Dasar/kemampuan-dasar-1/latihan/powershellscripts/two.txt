@@ -1,0 +1,60 @@
+PS C:\Users\acer>     Get-WmiObject -Class Win32_OperatingSystem –ComputerName localhost |
+
+    Select-Object -Property CSName,LastBootUpTime
+
+CSName          LastBootUpTime           
+------          --------------           
+DESKTOP-TTK40PI 20200218071957.500000+420
+
+
+
+PS C:\Users\acer>     Get-WmiObject -Class Win32_OperatingSystem –ComputerName localhost |
+
+    Select-Object -Property CSName,@{n=”Last Booted”;
+
+    e={[Management.ManagementDateTimeConverter]::ToDateTime($_.LastBootUpTime)}}
+
+CSName          Last Booted         
+------          -----------         
+DESKTOP-TTK40PI 2/18/2020 7:19:57 AM
+
+
+PS C:\Users\acer> E:\KULIAH\Get-LastBootTime
+
+CSName          Last Booted         
+------          -----------         
+DESKTOP-TTK40PI 2/18/2020 7:19:57 AM
+
+
+PS C:\Users\acer> help E:\KULIAH\Get-LastBootTime.ps1
+Get-LastBootTime.ps1 [[-ComputerName] <string>]
+
+
+PS C:\WINDOWS\system32> help E:\KULIAH\Get-LastBootTime
+
+NAME
+    E:\KULIAH\Get-LastBootTime.ps1
+
+SYNOPSIS
+    Shows when last your PC started up.
+
+
+SYNTAX
+    E:\KULIAH\Get-LastBootTime.ps1 [-ComputerName] <String> [<CommonParameters>]
+
+
+DESCRIPTION
+    This is a WMI wrapper function to get the time that your PC last started up.
+
+
+RELATED LINKS
+    www.howtogeek.com
+
+REMARKS
+    To see the examples, type: "get-help E:\KULIAH\Get-LastBootTime.ps1 -examples".
+    For more information, type: "get-help E:\KULIAH\Get-LastBootTime.ps1 -detailed".
+    For technical information, type: "get-help E:\KULIAH\Get-LastBootTime.ps1 -full".
+    For online help, type: "get-help E:\KULIAH\Get-LastBootTime.ps1 -online"
+	
+	
+	

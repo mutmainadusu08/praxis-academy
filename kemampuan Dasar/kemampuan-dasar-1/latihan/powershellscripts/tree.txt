@@ -4,9 +4,9 @@ NAME
     Format-Table
 
 SYNTAX
-    Format-Table [[-Property] <Object[]>] [-AutoSize] [-RepeatHeader] [-HideTableHeaders] [-Wrap] [-GroupBy
-    <Object>] [-View <string>] [-ShowError] [-DisplayError] [-Force] [-Expand {CoreOnly | EnumOnly | Both}]
-    [-InputObject <psobject>]  [<CommonParameters>]
+    Format-Table [[-Property] <Object[]>] [-AutoSize] [-RepeatHeader] [-HideTableHeaders] [-Wrap] [-GroupBy <Object>]
+    [-View <string>] [-ShowError] [-DisplayError] [-Force] [-Expand {CoreOnly | EnumOnly | Both}] [-InputObject
+    <psobject>]  [<CommonParameters>]
 
 
 ALIASES
@@ -54,29 +54,6 @@ Alias           Initialize-Volume                                  2.0.0.0    St
 Alias           Mount-AppPackageVolume                             2.0.1.0    Appx
 Alias           Move-AppPackage                                    2.0.1.0    Appx
 Alias           Move-SmbClient                                     2.0.0.0    SmbWitness
-Alias           Optimize-AppProvisionedPackages                    3.0        Dism
-Alias           Optimize-ProvisionedAppPackages                    3.0        Dism
-Alias           Optimize-ProvisionedAppxPackages                   3.0        Dism
-Alias           Remove-AppPackage                                  2.0.1.0    Appx
-Alias           Remove-AppPackageVolume                            2.0.1.0    Appx
-Alias           Remove-AppProvisionedPackage                       3.0        Dism
-Alias           Remove-EtwTraceSession                             1.0.0.0    EventTracingManagement
-Alias           Remove-ProvisionedAppPackage                       3.0        Dism
-Alias           Remove-ProvisionedAppxPackage                      3.0        Dism
-Alias           Remove-ProvisioningPackage                         3.0        Provisioning
-Alias           Remove-TrustedProvisioningCertificate              3.0        Provisioning
-Alias           Set-AppPackageDefaultVolume                        2.0.1.0    Appx
-Alias           Set-AppPackageProvisionedDataFile                  3.0        Dism
-Alias           Set-AutologgerConfig                               1.0.0.0    EventTracingManagement
-Alias           Set-EtwTraceSession                                1.0.0.0    EventTracingManagement
-Alias           Set-ProvisionedAppPackageDataFile                  3.0        Dism
-Alias           Set-ProvisionedAppXDataFile                        3.0        Dism
-Alias           Write-FileSystemCache                              2.0.0.0    Storage
-Function        A:
-Function        Add-BCDataCacheExtension                           1.0.0.0    BranchCache
-Function        Add-BitLockerKeyProtector                          1.0.0.0    BitLocker
-Function        Add-DnsClientNrptRule                              1.0.0.0    DnsClient
-Function        Add-DtcClusterTMMapping                            1.0.0.0    MsDtc
 
 
 PS C:\Users\acer> Get-Service "vm*"
@@ -91,21 +68,6 @@ Stopped  vmicshutdown       Hyper-V Guest Shutdown Service
 Stopped  vmictimesync       Hyper-V Time Synchronization Service
 Stopped  vmicvmsession      Hyper-V PowerShell Direct Service
 Stopped  vmicvss            Hyper-V Volume Shadow Copy Requestor
-
-
-PS C:\Users\acer> Get-Service "vm*"
-
-Status   Name               DisplayName
-------   ----               -----------
-Stopped  vmicguestinterface Hyper-V Guest Service Interface
-Stopped  vmicheartbeat      Hyper-V Heartbeat Service
-Stopped  vmickvpexchange    Hyper-V Data Exchange Service
-Stopped  vmicrdv            Hyper-V Remote Desktop Virtualizati...
-Stopped  vmicshutdown       Hyper-V Guest Shutdown Service
-Stopped  vmictimesync       Hyper-V Time Synchronization Service
-Stopped  vmicvmsession      Hyper-V PowerShell Direct Service
-Stopped  vmicvss            Hyper-V Volume Shadow Copy Requestor
-
 
 
 PS C:\Users\acer> Get-Service "vm*" | Get-Member
@@ -132,7 +94,7 @@ Pause                     Method        void Pause()
 Refresh                   Method        void Refresh()
 Start                     Method        void Start(), void Start(string[] args)
 Stop                      Method        void Stop()
-WaitForStatus             Method        void WaitForStatus(System.ServiceProcess.ServiceControllerStatus desiredS...
+WaitForStatus             Method        void WaitForStatus(System.ServiceProcess.ServiceControllerStatus desiredStat...
 CanPauseAndContinue       Property      bool CanPauseAndContinue {get;}
 CanShutdown               Property      bool CanShutdown {get;}
 CanStop                   Property      bool CanStop {get;}
@@ -150,47 +112,14 @@ Status                    Property      System.ServiceProcess.ServiceControllerS
 ToString                  ScriptMethod  System.Object ToString();
 
 
+PS C:\Users\acer> New-Item -Path 'E:\LOgO11' -ItemType Directory
 
-PS C:\Users\acer> New-Item -Path 'F:\Guru99' -ItemType Directory
 
-
-    Directory: F:\
+    Directory: E:\
 
 
 Mode                LastWriteTime         Length Name
 ----                -------------         ------ ----
-d-----        2/19/2020   8:15 PM                Guru99
+d-----        2/18/2020   1:23 PM                LOgO11
 
 
-SKIP POWERSHELL
-
-PS C:\WINDOWS\system32> Get-ExecutionPolicy
-RemoteSigned
-
-
-PS C:\WINDOWS\system32> Set-executionpolicy unrestricted
-
-Execution Policy Change
-The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose
-you to the security risks described in the about_Execution_Policies help topic at
-https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
-[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): y
-
-
-PS C:\WINDOWS\system32> Get-ExecutionPolicy
-Unrestricted
-
-
-PS C:\WINDOWS\system32> & "F:\magang_sisteminformasi\FirstScript.ps1"
-Halo, Guru99!
-
-
-PS C:\Users\acer> F:\magang_sisteminformasi\script2.ps1
-Halo, Guru99!
-
-
-PS C:\Users\acer> F:\magang_sisteminformasi\script2.ps1
-
-CSName          FreeVirtualMemory
-------          -----------------
-DESKTOP-TTK40PI           4131552
