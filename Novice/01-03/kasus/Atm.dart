@@ -1,192 +1,173 @@
 
-	// agar dapat menggunakan fungsi stdin stdout atau input output
+	import 'dart:io';
+void main(){
+  //Buat dua objek ATM
+  Atm akunatm1 = Atm();
+  Atm akunatm2 = Atm();
 
-import 'dart:io';
-
-	// fungsi utama yang akan pertama kali dijalankan
-
-main() {
-
-  // memanggil atau menjalankan fungsi login
+  //Buat List untuk objek ATM
+  List<Atm> atm = List<Atm>();
+  //Atur PIN,Nama,Saldo dengan memanggil List objek dari ATM tadi
+  atm.add(akunatm1);atm[0].setPinAkun(123);atm[0].setNamaAkun("Samsul");atm[0].setSaldo(1000000);
+  atm.add(akunatm2);atm[1].setPinAkun(456);atm[1].setNamaAkun("Udin");atm[1].setSaldo(2000000);
   
-  login();
+  //Lempar List Objek atm ke method masukAkun() untuk validasi dan memulai program
+  masukAkun(atm);
+
 }
 
-// membuat model atau kelas untuk menampung data pengguna
-class Users {
-  // nama pengguna
-  String name;
-  // pin pengguna
-  int pin;
-  // saldo pengguna
-  int balance;
+//Method untuk Login/Masuk akun dan isi parameter dengan List dari Objek ATM
+void masukAkun(List<Atm> akun){
 
-  // konstruktor model atau kelas pengguna, untuk mendapatkan nilai dari luar kelas
-  Users(this.name, this.pin, this.balance);
+//variabel boolean untuk pengulangan
+ bool ulang = true;
 
-  // mengambil nilai balik berbentuk String yang berisi nama pengguna
-  String getName() {
-    return name;
-  }
-
-  // mengambil nilai balik berbentuk int yang berisi pin pengguna
-  int getPin() {
-    return pin;
-  }
-
-  // mengambil nilai balik berbentuk int yang berisi saldo pengguna
-  int getBalance() {
-    return balance;
-  }
-
-  // mengubah nilai saldo pengguna
-  setBalance(int balance) {
-    this.balance = balance;
-  }
-}
-
-// mendeklarasikan daftar pengguna dan menginisialisasikan nilai nilainya
-List<Users> users = [
-  Users('Eudeka', 123, 10000),
-  Users('Eureka', 456, 40000),
-  Users('Merdeka', 789, 70000),
-];
-
-// mendeklarasikan pengguna
-Users user;
-
-// membuat fungsi login
-void login() {
-  // menjalankan fungsi checkUser yang bernilai balik bool didalam if
-  if (checkUser()) {
-    // jika checkUser mengembalikan nilai benar (true) maka lanjut ke fungsi homePage
-    homePage();
-  } else {
-    // jika checkUser mengembalikan nilai salah (false) maka kembali ke fungsi main yang akan mengulang fungsi login
-    main();
-  }
-}
-
-// membuat fungsi checkUser
-bool checkUser() {
-  // mendeklarasikan nilai isLogin dengan nilai salah (false)
-  bool isLogin = false;
-  print('\n');
-  print('Masuk');
-  stdout.write('PIN : ');
-  // mengambil nilai inputan dan memasukkan hasil inputan ke dalam nilai pin
-  var pin = int.parse(stdin.readLineSync());
-  // mengecek nilai usr (Users) yang ada di dalam nilai users (List<Users>)
-  for (Users usr in users) {
-    // jika nilai pin hasil inputan sama dengan nilai pin yang di dapat dari salah satu usr (jika terdapat dua pin yang sama akan diambil nilai yang paling pertama di deklarasikan)
-    if (pin == usr.getPin()) {
-      // jika benar maka atur nilai user dengan nilai usr yang di dapat dan atur isLogin menjadi benar (true)
-      user = usr;
-      isLogin = true;
+   do{
+  stdout.write("Masukan Pin :");
+  int pin = int.parse(stdin.readLineSync());
+  //Menc/ari Akun yang sesuai dengan PIN yang dinputkan
+  for(var item in akun){
+    
+    //Validasi jika pin yang diinputkan sesuai dengan pin yang tersedia 
+    if( item.getPinAkun() == pin){
+       atmKu(item,akun);
+       ulang = false;
     }
-  }
-  // kembalikan nilai isLogin ketika fungsi checkUser dipanggil
-  return isLogin;
+    //Jika salah maka akan diulang
+  }}while(ulang);
+
 }
 
-// membuat fungsi homePage
-void homePage() {
-  // mengambil dan menampilkan nama pengguna dari pengguna yang sedang login pada homePage
-  var name = user.getName();
-  print('\n');
-  print('Selamat Datang $name!');
-  print('1 = Tarik Tunai');
-  print('2 = Setor Tunai');
-  print('3 = Cek Saldo');
-  print('4 = Ganti Akun');
-  print('5 = Keluar Aplikasi');
-  stdout.write('Pilih Menu : ');
-  // menjalankan fungsi menuPage
-  menuPage();
-}
+//Method untuk memanggil Objek Atm dan Untuk Menampilkan Menu
+void atmKu(Atm atm,List<Atm> akun){
+//Variabel boolean untuk pengulangan  
+bool ulang = false;
+ do{
+//Tampilan Menu 
+ stdout.writeln();
 
-void menuPage() {
-  // mengambil inputan dan memasukkan ke dalam nilai menu
-  var menu = stdin.readLineSync();
-  // pengecekan nilai menu secara paralel
-  switch (menu) {
-    // jika menu 1 lanjut ke fungsi tarik
-    case '1':
-      tarik();
+ //panggil method getNamaAkun untuk menampilkan Nama Akun di Menu 
+ stdout.writeln(" --= Selamat Datang "+ atm.getNamaAkun() +" =--");
+ stdout.writeln("1 = Tarik Tunai ");
+ stdout.writeln("2 = Setor Tunai ");
+ stdout.writeln("3 = Cek Saldo ");
+ stdout.writeln("4 = Ganti Akun ");
+ stdout.writeln("5 = Keluar Aplikasi ");
+stdout.write("Pilih Menu : ");
+int menu = int.parse(stdin.readLineSync());
+  switch(menu){
+      
+    //Case 1 untuk tarik tunai dan memanggil fungsi tarikTunai();   
+    case 1:
+      stdout.writeln("-- Tarik Tunai --");
+      if(atm.cekSaldoAkun() <= 0 )
+      //Validasi jika Saldo Akun kurang dari 0
+      {
+        stdout.writeln("Maaf Saldo Anda Tidak Cukup");
+
+      }
+      else{
+       stdout.write("Nominal :");  
+       int tarikTunai = int.parse(stdin.readLineSync()    );
+       
+      //Validasi jika Saldo yang ditarik melebihi Saldo User  
+      if(tarikTunai>=atm.cekSaldoAkun()){     
+        stdout.writeln("Maaf Saldo Anda Tidak Cukup");      
+       }else{
+          atm.tarikTunai(tarikTunai);
+          stdout.writeln();
+       }}
       break;
-    // jika menu 2 lanjut ke fungsi setor
-    case '2':
-      setor();
+   
+   
+   //Case 2 untuk setor tunai dan memanggil fungsi setorTunai()
+    case 2:
+      stdout.writeln("-- Setor Tunai ---");
+      stdout.write("Nominal :");
+      int setorTunai = int.parse(stdin.readLineSync());
+      atm.setorTunai(setorTunai);
+      stdout.writeln();
       break;
-    // jika menu 3 lanjut ke fungsi saldo
-    case '3':
-      saldo();
-      break;
-    // jika menu 4 lanjut ke fungsi main atau kembali ke fungsi awal lagi yaitu login
-    case '4':
-      main();
-      break;
-    // jika menu 5 keluar dari aplikasi
-    case '5':
-      print('\n');
-      exit(0);
-      break;
-    // jika menu tidak tersedia maka kembali ke menuPage
+
+
+  //Case 3 untuk cek saldo User dan memanggil method cekSaldoAkun()
+    case 3:
+      stdout.writeln("-- Cek Saldo ---");
+      stdout.writeln("Saldo Anda :" + atm.cekSaldoAkun().toString());
+      stdout.writeln();
+      break;  
+   
+   //Case 4 untuk mengganti akun dan kembali lagi untuk login/masuk akun
+    case 4:
+      stdout.writeln("-- Ganti Akun ---");
+      masukAkun(akun);
+    //variabel ulang menjadi true dimana program akan berhenti jika ulang bernilai true
+      ulang =true;
+      break;  
+
+
+   //Case 5 untuk mengakhiri menu dan keluar dari program
+       case 5:
+      stdout.writeln("-- Terima Kasih ---");
+    //variabel ulang menjadi true dimana program akan berhenti jika ulang bernilai true
+      ulang=true;
+      break;  
+   
+   //Default untuk mengatasi input jika user menginput bukan nomor yang disediakan
     default:
-      print('\n');
-      print('Menu tidak tersedia');
-      print('\n');
-      stdout.write('Pilih antara 1 2 3 4 or 5 : ');
-      menuPage();
+    stdout.writeln("Maaf Masukan Anda Salah,Coba Lagi");
+    stdout.writeln();
+
   }
+  //variabel akan diulang jika nilai dari variabel ulang adalah false
+  }while(!ulang);
+
 }
 
-// buat fungsi tarik tunai
-void tarik() {
-  print('\n');
-  print('Tarik Tunai');
-  stdout.write('Nominal : ');
-  // mengambil inputan dan memasukkan ke dalam nilai nominal
-  var nominal = int.parse(stdin.readLineSync());
-  // melakukan pengecekan jika nilai saldo pengguna dari pengguna yang sedang login lebih besar dari nominal
-  if (user.getBalance() > nominal) {
-    // maka lanjut ke fungsi updateSaldo dengan memasukkan parameter nilai nominal yang negatif
-    updateSaldo(-nominal);
-  } else {
-    // jika nilai saldo pengguna tidak lebih besar dari nominal tampilkan peringatan saldo tidak cukup
-    print('Saldo tidak cukup');
-  }
-  // lalu kembali ke homePage
-  homePage();
-}
+//Membuat Model ATM 
+class Atm{
+    int pinAkun;
+    String namaAkun;
+    int saldoAkun = 0;
 
-// buat fungsi setor
-void setor() {
-  print('\n');
-  print('Setor Tunai');
-  stdout.write('Nominal : ');
-  // mengambil inputan dan memasukkan ke dalam nilai nominal
-  var nominal = int.parse(stdin.readLineSync());
-  // lanjut ke fungsi updateSaldo dengan memasukkan parameter nilai nominal
-  updateSaldo(nominal);
-  // lalu kembali ke homePage
-  homePage();
-}
+    void setNamaAkun(String namaAkun){
+    //Method Getter untuk Nama Akun
+        this.namaAkun = namaAkun;
+    }
+    //Method Getter untuk Nama Akun
+    String getNamaAkun(){
+      return namaAkun;
+    }
 
-// buat fungsi saldo
-void saldo() {
-  print('\n');
-  print('Cek Saldo');
-  // ambil dan cetak nilai saldo dari pengguna yang sedang login
-  print(user.getBalance());
-  // lalu kembali ke homePage
-  homePage();
-}
+    //Method Getter untuk PIN   
+    int getPinAkun(){
+        return this.pinAkun;      
+    } 
+    //Method Setter untuk PIN 
+    void setPinAkun(int pinAkun){
+        this.pinAkun = pinAkun;
+    }
 
-// buat fungsi updateSaldo dengan parameter wajib dengan tipedata int
-void updateSaldo(int nominal) {
-  // mengambil nilai saldo dari pengguna yang sedang login ditambah nilai nominal dari parameter fungsi tersebut dan memasukkan ke dalam nilai balance
-  var balance = user.getBalance() + nominal;
-  // ubah nilai saldo pengguna yang sedang login dengan nilai balance
-  user.setBalance(balance);
+
+    //Fungsi untuk mengecek Saldo User  
+    int cekSaldoAkun(){
+        return saldoAkun;
+    }
+    //Method Setter untuk Saldo 
+    void setSaldo(int saldoAkun){
+        this.saldoAkun = saldoAkun;
+    }
+
+
+    //Fungsi untuk menarik tunai dari Saldo User
+    int tarikTunai(int tarikTunai){     
+       return this.saldoAkun = this.saldoAkun - tarikTunai;
+    }
+
+    //Fungsi untuk mengirim tunai ke Saldo User
+    int setorTunai(int setorTunai){
+      return this.saldoAkun = this.saldoAkun + setorTunai;
+    }
+
+    
 }
